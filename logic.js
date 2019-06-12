@@ -1,27 +1,42 @@
-var weather = require('weather-js');
-var fs = require('fs');
+var weather = require("weather-js");
+var fs = require("fs");
+var UserSearch = require("./userConstructor");
+var WeatherAdmin = require("./adminConstructor");
 
 
-weather.find({search: 'San Francisco, CA', degreeType: 'F'}, function(err, result) {
-  if(err) console.log(err);
- 
-//   console.log(JSON.stringify(result[0].current, null, 2));
-});
+
 
 var commandLineArgs = process.argv.slice(2);
 
-    if (commandLineArgs[0].toLowerCase() === 'user'){
-        fs.appendFile('adminLog.txt', commandLineArgs.slice(1), function(error){
+    
+    if (commandLineArgs[0].toLowerCase() === "user"){
+        var user = new UserSearch(name, location);
+
+        fs.appendFile("adminLog.txt", commandLineArgs.slice(1), function(error){
             if (error) {
                 console.log(error);
-            } else console.log(`content added.`);
+            } else {
+                console.log(`content added.`);
+            }
         });
+
+        var location = commandLineArgs.slice(2);
         
+        weather.find({search: location, degreeType: "F"}, function(err, result) {
+            if(err) console.log(err);
+           
+            console.log(JSON.stringify(result[0].current, null, 2));
+            console.log(JSON.stringify(result, null, 2));
+          });
 
 
-    } else if (commandLineArgs[0].toLowerCase() === 'admin'){
+
+    } 
+    else if (commandLineArgs[0].toLowerCase() === "admin") {
+        var admin = new WeatherAdmin(userName, searchedLocation, date);
         console.log(`admin hit`);
-    } else {
+    } 
+    else {
         console.log(`not a valid entry, please choose: admin or user`);
     }
 
