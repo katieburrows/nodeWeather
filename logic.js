@@ -15,8 +15,9 @@ if (commandLineArgs[0].toLowerCase() === "user"){
         
         console.log(JSON.stringify(result[0].current, null, 2));
 
-
-        var user = new UserSearch(commandLineArgs[1], commandLineArgs[2]);
+        var time = result[0].current.date;
+        
+        var user = new UserSearch(commandLineArgs[1], commandLineArgs[2], time);
 
         fs.appendFile("adminLog.txt", JSON.stringify(user), function(error){
             if (error) {

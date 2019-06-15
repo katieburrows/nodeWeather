@@ -1,1 +1,1 @@
-{"name":"katie","location":"denver"}{"name":"sammie","location":"taos"}
+{"name":"katie","location":"denver"}{"name":"sammie","location":"taos"}{"name":"sammie","location":"taos"}{"name":"sammie","location":"taos"}{"name":"sammie","location":"taos","time":"2019-06-14"}
