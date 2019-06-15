@@ -14,7 +14,7 @@ if (commandLineArgs[0].toLowerCase() === "user"){
         }
         
         console.log(JSON.stringify(result[0].current, null, 2));
-        // console.log(JSON.stringify(result, null, 2));
+
 
         var user = new UserSearch(commandLineArgs[1], commandLineArgs[2]);
 
