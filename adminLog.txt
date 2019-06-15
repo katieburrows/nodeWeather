@@ -1,1 +1,1 @@
-{"name":"katie","location":"denver"}
+{"name":"katie","location":"denver"}{"name":"sammie","location":"taos"}

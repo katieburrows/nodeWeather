@@ -18,13 +18,13 @@ if (commandLineArgs[0].toLowerCase() === "user"){
 
         var user = new UserSearch(commandLineArgs[1], commandLineArgs[2]);
 
-        // fs.appendFile("adminLog.txt", JSON.stringify(user), function(error){
-        //     if (error) {
-        //         console.log(error);
-        //     } else {
-        //         console.log(`content added.`);
-        //     }
-        // });
+        fs.appendFile("adminLog.txt", JSON.stringify(user), function(error){
+            if (error) {
+                console.log(error);
+            } else {
+                console.log(`content added.`);
+            }
+        });
     });
 
             
