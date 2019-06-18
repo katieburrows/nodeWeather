@@ -1,6 +1,5 @@
-var weather = require("weather-js");
-var fs = require("fs");
-var UserSearch = require("./userConstructor");
+
+
 var WeatherAdmin = require("./adminConstructor");
 
 var commandLineArgs = process.argv.slice(2);
@@ -19,13 +18,17 @@ if (commandLineArgs[0].toLowerCase() === "user"){
         
         var user = new UserSearch(commandLineArgs[1], commandLineArgs[2], time);
 
-        fs.appendFile("adminLog.txt", JSON.stringify(user), function(error){
-            if (error) {
-                console.log(error);
-            } else {
-                console.log(`content added.`);
-            }
-        });
+        JSON.stringify(user);
+
+        console.log(user);
+
+        // fs.appendFile("adminLog.txt", user, function(error){
+        //     if (error) {
+        //         console.log(error);
+        //     } else {
+        //         console.log(`content added.`);
+        //     }
+        // });
     });
 
             
