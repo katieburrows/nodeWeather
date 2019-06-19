@@ -14,12 +14,17 @@ var WeatherAdmin = function() {
     }
     this.newUserSearch = function() {
         var newUserSearch = new UserSearch(name, location);
-        var logTxt = (`Name: ${newUserSearch.name}\nLocation: ${newUserSearch.location}\nDate: ${moment(newUserSearch.date).format("MM-DD-YYYY")}`);
+        var text = (`Name: ${newUserSearch.name}\nLocation: ${newUserSearch.location}\nDate: ${moment(newUserSearch.date).format("MM-DD-YYYY")}`);
         
+        fs.appendFile("adminLog.txt", text, function(error) {
+            if (error) {
+                console.log(error);
+            }
+
+            newUserSearch.getWeather();
+        })
     }
-    this.userName = userName;
-    this.searchedLocation = searchedLocation;
-    this.date = date;
+
 
 
 }
