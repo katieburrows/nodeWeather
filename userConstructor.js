@@ -11,7 +11,7 @@ var UserSearch = function(name, location) {
                 console.log(err);
             }
             
-            console.log(JSON.stringify(result[0].current, null, 2));
+            console.log(JSON.stringify(result, null, 2));
         });
     };
 };
