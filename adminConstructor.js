@@ -23,7 +23,7 @@ var WeatherAdmin = function() {
                 console.log(error);
             }
 
-            newUserSearch.getWeather();
+            newUserSearch.weatherFunc();
         })
     }
 

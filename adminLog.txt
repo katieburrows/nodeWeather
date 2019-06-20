@@ -1,3 +1,7 @@
 {"name":"katie","location":"denver"}{"name":"sammie","location":"taos"}{"name":"sammie","location":"taos"}{"name":"sammie","location":"taos"}{"name":"sammie","location":"taos","time":"2019-06-14"}Name: katie
 Location: dallas
+Date: 06-19-2019Name: teddy
+Location: alaska
+Date: 06-19-2019Name: blueberry
+Location: new
 Date: 06-19-2019
