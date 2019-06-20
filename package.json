@@ -1,0 +1,23 @@
+{
+  "name": "nodeweather",
+  "version": "1.0.0",
+  "description": "app that takes in command line arguments and retrieves data based off of arguments",
+  "main": "logic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katieburrows/nodeWeather.git"
+  },
+  "author": "Katie Burrows",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katieburrows/nodeWeather/issues"
+  },
+  "homepage": "https://github.com/katieburrows/nodeWeather#readme",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "weather-js": "^2.0.0"
+  }
+}

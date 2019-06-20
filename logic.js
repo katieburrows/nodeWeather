@@ -7,7 +7,7 @@ var admin = new WeatherAdmin();
 var location = commandLineArgs[2];
 
 if (commandLineArgs[0].toLowerCase() === "user"){
-    myAdmin.newUserSearch(commandLineArgs[1], location);   
+    admin.newUserSearch(commandLineArgs[1], location);   
 } 
 else if (commandLineArgs[0].toLowerCase() === "admin") {
     admin.getData();
