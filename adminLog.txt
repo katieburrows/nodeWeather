@@ -13,3 +13,6 @@ Location: troutdale
 Date: 06-20-2019Name: bryan
 Location: la
 Date: 06-20-2019
+Name: bryan
+Location: la,center
+Date: 06-20-2019

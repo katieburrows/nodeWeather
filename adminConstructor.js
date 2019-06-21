@@ -14,9 +14,9 @@ var WeatherAdmin = function() {
     }
     this.newUserSearch = function() {
         var name = process.argv[3];
-        var location = process.argv[4];
+        var location = process.argv.slice(4);
         var newUserSearch = new UserSearch(name, location);
-        var text = (`Name: ${newUserSearch.name}\nLocation: ${newUserSearch.location}\nDate: ${moment(newUserSearch.date).format("MM-DD-YYYY")}`);
+        var text = (`\nName: ${newUserSearch.name}\nLocation: ${newUserSearch.location}\nDate: ${moment(newUserSearch.date).format("MM-DD-YYYY")}`);
         
         fs.appendFile("adminLog.txt", text, function(error) {
             if (error) {
