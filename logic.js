@@ -4,7 +4,7 @@ var commandLineArgs = process.argv.slice(2);
 
 var admin = new WeatherAdmin();
 
-var location = commandLineArgs[2];
+var location = commandLineArgs.slice(2);
 
 if (commandLineArgs[0].toLowerCase() === "user"){
     admin.newUserSearch(commandLineArgs[1], location);   
