@@ -1,30 +1,25 @@
-{"name":"katie","location":"denver"}{"name":"sammie","location":"taos"}{"name":"sammie","location":"taos"}{"name":"sammie","location":"taos"}{"name":"sammie","location":"taos","time":"2019-06-14"}Name: katie
-Location: dallas
-Date: 06-19-2019Name: teddy
-Location: alaska
-Date: 06-19-2019Name: blueberry
-Location: new
-Date: 06-19-2019Name: blueberry
-Location: new
-Date: 06-19-2019Name: blueberry
-Location: new
-Date: 06-19-2019Name: meghan
-Location: troutdale
-Date: 06-20-2019Name: bryan
-Location: la
+
+
+Name: Katie
+Location: Taos
 Date: 06-20-2019
-Name: bryan
-Location: la,center
+
+Name: Sammie
+Location: Estes,Park
 Date: 06-20-2019
-Name: bryan
-Location: portland
+
+Name: Teddy
+Location: Nederland
 Date: 06-20-2019
-Name: bryan
-Location: portland
+
+Name: Blueberry
+Location: Tuscany
 Date: 06-20-2019
-Name: bryan
-Location: la
+
+Name: Meghan
+Location: Colorado,Springs
 Date: 06-20-2019
-Name: bryan
-Location: la,center
+
+Name: Bryan
+Location: La,Center
 Date: 06-20-2019
