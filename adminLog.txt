@@ -8,4 +8,8 @@ Date: 06-19-2019Name: blueberry
 Location: new
 Date: 06-19-2019Name: blueberry
 Location: new
-Date: 06-19-2019
+Date: 06-19-2019Name: meghan
+Location: troutdale
+Date: 06-20-2019Name: bryan
+Location: la
+Date: 06-20-2019
