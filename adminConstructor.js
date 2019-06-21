@@ -12,7 +12,7 @@ var WeatherAdmin = function() {
             }
         });
     }
-    this.newUserSearch = function() {
+    this.newUserSearch = function(name, location) {
         var name = process.argv[3];
         var location = process.argv.slice(4);
         var newUserSearch = new UserSearch(name, location);
