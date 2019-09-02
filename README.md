@@ -4,7 +4,10 @@ Using the CLI, the user is able to use the program as either the user or the adm
 
 Although this is not the most practical/optimal way to use constructors/module.exports it is an example of how they can be used. The construction begins at __userConstructor.js__ and feeds into __adminConstructor.js__ with everything threading together in __logic.js__.
 
-
+![Landing page overview](assets/images/userStart.png)
+![Landing page overview](assets/images/userResult.png)
+![Landing page overview](assets/images/adminStart.png)
+![Landing page overview](assets/images/adminResult.png)
 
 ### Built With:
 * JavaScript
