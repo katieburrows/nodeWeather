@@ -23,3 +23,11 @@ Date: 06-20-2019
 Name: Bryan
 Location: La,Center
 Date: 06-20-2019
+
+Name: Katie
+Location: Atlanta
+Date: 09-01-2019
+
+Name: Sammie
+Location: Chicago
+Date: 09-01-2019
