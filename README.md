@@ -5,16 +5,16 @@ Using the CLI, the user is able to use the program as either the user or the adm
 Although this is not the most practical/optimal way to use constructors/module.exports it is an example of how they can be used. The construction begins at __userConstructor.js__ and feeds into __adminConstructor.js__ with everything threading together in __logic.js__.
 
 The text entered into the CLI as a user to kick off a search:
-![Landing page overview](assets/images/userStart.png)
+![User search language](assets/images/userStart.png)
 
 The result of a user's search:
-![Landing page overview](assets/images/userResult.png)
+![User search results](assets/images/userResult.png)
 
 The text entered into the CLI as an admin to read the adminLog.txt file:
-![Landing page overview](assets/images/adminStart.png)
+![Admin language](assets/images/adminStart.png)
 
 The result of an admin request:
-![Landing page overview](assets/images/adminResult.png)
+![Admin results](assets/images/adminResult.png)
 
 ### Built With:
 * JavaScript
