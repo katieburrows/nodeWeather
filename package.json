@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/katieburrows/nodeWeather#readme",
   "dependencies": {
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "weather-js": "^2.0.0"
   }
 }
